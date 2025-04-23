@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Intro Bar Styling */
+.intro-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Centering the intro text */
+.intro-content {
+    text-align: center;
+}
+
+/* Flexbox Navigation Bar */
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-bar a.active {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 300px;
+    height: auto;
+    border-radius: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    
+}
+
+/* Text Paragraph Styling */
+p {
+    max-width: 600px;
+    margin: 20px;
+    margin-right: auto;
+    max-width: 50%;
+    font-size: large;
+}
+
+.intro-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
