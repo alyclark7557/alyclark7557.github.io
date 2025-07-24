@@ -76,3 +76,29 @@ p {
     padding: 50px;
     font-family: Arial, sans-serif;
 }
+
+/* Styling for the work-experience page and table*/
+.jobs {
+    border: 1px solid;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.jobs td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.jobs th {
+    border: 1px solid;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+}
+
+.job-information {
+    margin-top: 10vh;
+}
