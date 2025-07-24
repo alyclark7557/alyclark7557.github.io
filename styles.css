@@ -70,8 +70,8 @@ p {
 
 .intro-info {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
     gap: 20px;
     padding: 50px;
     font-family: Arial, sans-serif;
