@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Styles for all pages*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -62,17 +62,16 @@ body {
 /* Text Paragraph Styling */
 p {
     max-width: 600px;
-    margin: 20px;
-    margin-right: auto;
-    max-width: 50%;
+    margin: 20px auto;
+    max-width: 60%;
     font-size: large;
+    text-align: center;
 }
 
 .intro-info {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 20px;
     padding: 50px;
     font-family: Arial, sans-serif;
 }
@@ -101,4 +100,44 @@ p {
 
 .job-information {
     margin-top: 10vh;
+}
+
+/*Styling for the Projects Page*/
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.in-progress {
+    background-color: yellow;
+}
+
+/*Syling for the About-Me Page*/
+.dog-photos {
+    display: flex;
+    gap: 15vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+}
+
+.dog-photos img {
+    max-width: 25%;
+    height: auto;
+}
+
+.schooling-info {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.schooling-info img {
+    max-width: 20%;
+    height: auto;
 }
