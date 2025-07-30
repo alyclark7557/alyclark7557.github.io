@@ -24,6 +24,32 @@ body {
     text-align: center;
 }
 
+.skill-list {
+    list-style: square;
+    text-align: center;
+    list-style-type: none;
+}
+
+.skills-list li {
+    display: inline-block;
+}
+
+.photo-gallery {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.photo-gallery img {
+    width: 12.5%;
+    height: auto;
+    margin: 0;
+}
+
 /* Flexbox Navigation Bar */
 .nav-bar {
     list-style: none;
@@ -133,11 +159,12 @@ p {
 
 .schooling-info {
     display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: stretch;
 }
 
 .schooling-info img {
-    max-width: 20%;
+    width: 20%;
     height: auto;
+    display: block;
 }
