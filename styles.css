@@ -15,7 +15,7 @@ body {
     align-items: center;
     background-color: teal;
     color: white;
-    padding: 20px;
+    padding: 2vh;
     width: 100%;
 }
 
@@ -39,7 +39,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     position: fixed;
     bottom: 0;
 }
@@ -56,17 +57,17 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 2vh 0 0 0;
 }
 
 .nav-bar li {
-    margin: 0 15px;
+    margin: 0 1.5vh;
 }
 
 .nav-bar a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 1vh;
 }
 
 .nav-bar a.active {
@@ -75,20 +76,10 @@ body {
     color: black;
 }
 
-/* Profile Image Styling */
-.profile-image {
-    width: 300px;
-    height: auto;
-    border-radius: 75%;
-    margin-top: 20px;
-    margin-left: auto;
-    
-}
-
 /* Text Paragraph Styling */
 p {
-    max-width: 600px;
-    margin: 20px auto;
+    max-width: 6vh;
+    margin: 2vh auto;
     max-width: 60%;
     font-size: large;
     text-align: center;
@@ -98,7 +89,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 50px;
+    padding: 5vh;
     font-family: Arial, sans-serif;
 }
 
@@ -164,7 +155,7 @@ p {
 }
 
 .schooling-info img {
-    width: 20%;
+    max-width: 20%;
     height: auto;
     display: block;
 }
@@ -182,30 +173,16 @@ p {
 .learning-logs th {
     background-color: teal;
     border: 1px solid;
-    padding: 10px;
+    padding: 1vh;
     color: white;
+}
+
+.learning-logs tr {
+    border: 1px solid;
 }
 
 .log-description {
     text-align: center;
     max-width: 80%;
     margin-bottom: 5vh;
-}
-
-/*Styling for Blog Page*/
-.card img {
-    width: 20%;
-    height: auto;
-    border: 1px solid;
-    margin: 1vh;
-}
-
-.card {
-    background-color: lightgray;
-    padding: 2vh;
-    margin-top: 2vh;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
